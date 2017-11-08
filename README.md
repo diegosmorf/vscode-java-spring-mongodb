@@ -37,10 +37,9 @@ choco install maven
 choco install mongodb
 choco install robo3t.install (robomongo IDE)
 
-# 2 - Install the Visual Studio extension pack for Java:
- 
+2 - Install the Visual Studio extension pack for Java:
 
-# 3 - If necessary, the Maven quick start archetype could be used to generate a new Maven project in an appropriate local folder: 
+3 - If necessary, the Maven quick start archetype could be used to generate a new Maven project in an appropriate local folder: 
 mvn archetype:generate -DgroupId=com.companyname.appname-DartifactId=appname-DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false. 
 This will create an appname folder with Maven's Standard Directory Layout (i.e. src/main/java/com/companyname/appname and src/main/test/com/companyname/appname to begin with and a sample "Hello World!" Java file named appname.java and associate unit test named appnameTest.java).
 4 - Open the Maven project folder in VS Code via File menu -> Open Folder... select the appname folder.
@@ -55,7 +54,7 @@ This will create an appname folder with Maven's Standard Directory Layout (i.e. 
 
 7 - Save the above changes and then open the Command Palette and select "Tasks: Run Build Task" then pick "compile" and then "Continue without scanning the task output". This invokes Maven, which creates a target folder at the same level as the src folder with the compiled class files in the target\classes folder.
 UPDATE (placeholder): How to run/debug a class
-1.4	- How to debug Java into VSCode?
+# 1.4	- How to debug Java into VSCode?
 
 1 - Show the Debug view (via View menu >> Debug or Ctrl + Shift + D).
 2 - Click on the green arrow in the Debug view and select "Java".
